@@ -1,4 +1,4 @@
-/*! cornerstoneTools - v0.7.9 - 2016-10-25 | (c) 2014 Chris Hafey | https://github.com/chafey/cornerstoneTools */
+/*! cornerstoneToolsKP - TRIAL KP version | https://github.com/kspuri/cornerstoneTools */
 // Begin Source: src/header.js
 if (typeof cornerstone === 'undefined') {
     cornerstone = {};
@@ -3492,7 +3492,7 @@ if (typeof cornerstoneTools === 'undefined') {
  
 // End Source; src/imageTools/ellipticalRoi.js
 
-// Begin Source: src/imageTools/freehand.js
+// Begin Source: src/imageTools/freehand.js     kp
 (function($, cornerstone, cornerstoneMath, cornerstoneTools) {
 
     'use strict';
