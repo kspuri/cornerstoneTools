@@ -1,3 +1,4 @@
+// Begin Source: src/imageTools/freehand.js
 (function($, cornerstone, cornerstoneMath, cornerstoneTools) {
 
     'use strict';
@@ -52,7 +53,7 @@
         config.currentHandle += 1;
 
         // Reset freehand value
-        config.freehand = false;
+        config.freehand = true; //KP false orignally
 
         // Force onImageRendered to fire
         cornerstone.updateImage(eventData.element);
@@ -115,10 +116,10 @@
         }
 
         var config = cornerstoneTools.freehand.getConfiguration();
-
-        if (!eventData.event.shiftKey) {
+		config.freehand = true;
+        /*if (!eventData.event.shiftKey) {
             config.freehand = false;
-        }
+        }*/
 
         cornerstone.updateImage(eventData.element);
     }
@@ -419,3 +420,5 @@
     };
 
 })($, cornerstone, cornerstoneMath, cornerstoneTools);
+ 
+// End Source; src/imageTools/freehand.js
