@@ -1,5 +1,5 @@
 {
-  "name": "cornerstoneTools",
+  "name": "cornerstoneToolsKP",
   "version": "0.7.9",
   "description": "Medical imaging tools for the Cornerstone library",
   "keywords": [
@@ -12,7 +12,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/chafey/cornerstoneTools.git"
+    "url": "https://github.com/kspuri/cornerstoneTools.git"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
