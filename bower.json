@@ -1,5 +1,5 @@
 {
-  "name": "cornerstoneTools",
+  "name": "cornerstoneToolsKP",
   "version": "0.7.9",
   "description": "Tools for use with the cornerstone HTML5 Medical Image Viewer Component",
   "main" : "dist/cornerstoneTools.js",
@@ -28,6 +28,6 @@
   "keywords": ["DICOM", "medical", "imaging", "cornerstone", "cornerstoneTools"],
   "repository": {
       "type": "git",
-      "url": "https://github.com/chafey/cornerstoneTools.git"
+      "url": "https://github.com/kspuri/cornerstoneTools.git"
   }
 }
